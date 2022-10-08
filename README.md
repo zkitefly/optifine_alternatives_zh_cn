@@ -7,100 +7,101 @@ OptiFine最初是一个伟大的MOD, 最开始时它为玩家提供了许多游�
 
 在现在的Minecraft时代，在Fabric的社区努力下，MOD作者们已经开始为OptiFine的大部分功能创建替代品，让玩家保持更好的性能，更好的MOD兼容性，以及更好的支持。
 
-[OptiFabric：一篇关于1.16崩溃的笔记(OptiFabric: A note about the 1.16 crashes)][optifabric_issue]
+[OptiFabric：一篇关于1.16崩溃的笔记 (OptiFabric: A note about the 1.16 crashes)][optifabric_issue]
 
 [optifabric_issue]: https://github.com/modmuss50/OptiFabric/issues/242
 
-## This list
+## 替代品列表
 
-This list will list recommended OptiFine alternatives by me (LambdAurora), so it has some requirements for mods to be listed here:
+这个列表将列出我（LambdAurora）推荐的OptiFine替代品，所以对被列入的MOD有一些要求。
 
- - They must be publicly available - if they're only available on request they are not eligible.
- - Mods must respect the Mojang EULA.
- - “PVP” clients (Badlion / Lunar / etc.) and cheat clients are not considered mods.
- - Mods must not refer to cheat clients.
- - Mods that change gameplay in a way (e.g. zoom) that have a way for servers to disable them will be favored.
- - Free and open-source mods are favored.
+ - 它们必须是公开的——如果它们仅仅通过您向别人索要才能获得，则不符合条件
+ - 必须尊重Mojang的EULA（用户协议）
+ - PVP客户端（Badlion、Lunar等）和挂端不被视为MOD
+ - 不得涉及挂端
+ - 以某种方式改变游戏方式（如缩放）的MOD，如果有办法让服务器得以禁用它们，将得到优先推荐
+ - 免费和开源的MOD将得到优先推荐
 
-This list now has a fancy URL: https://lambdaurora.dev/optifine_alternatives
+这个列表现在有一个漂亮的URL：https://lambdaurora.dev/optifine_alternatives
+（中文版地址: https://whitepaper233.top）
 
-### Contribute
+### 贡献
 
-You can contribute to this list by opening a pull request on the `data` branch via [GitHub](https://github.com/LambdAurora/optifine_alternatives).
+你可以在`data`分支上通过 [GitHub](https://github.com/LambdAurora/optifine_alternatives) 提交拉动请求，为这个列表做出贡献。
 
-## Alternatives
+## 替代品
 
-### Performance
+### 性能优化
 
-#### Client
+#### 客户端
 
-- [Cull Leaves] - Adds culling to leaf blocks, providing a huge performance boost over vanilla. Similar to OptiFine's Smart Leaves feature.  
-  - Available for: quilt: 1.17 -> 1.19, fabric: 1.16 -> 1.19  
-- [Cull Particles] - Don't render particles that can't be seen. Unneeded with Sodium.  
-  - Available for: fabric,quilt: 1.15 -> 1.19  
-- [Dynamic FPS] - Improve performance when Minecraft is in the background.  
-  - Available for: quilt: 1.18 -> 1.19, fabric: 1.14 -> 1.19  
-- [Enhanced Block Entities] - Reduce FPS lag with block entities, as well as customize them with resource packs.  
-  - Available for: quilt: 1.18 -> 1.19, fabric: 1.16 -> 1.19  
-- [EntityCulling] - Using async path-tracing to hide (Block-)Entities that are not visible.  
-  - Available for: fabric,quilt: 1.16 -> 1.19, forge: 1.8.9, forge: 1.16 -> 1.19  
-- [Sodium] - Modern rendering engine and client-side optimization mod for Minecraft.  
-  - Available for: fabric,quilt: 1.16 -> 1.19  
+- [Cull Leaves] - 对树叶方块进行剔除, 提供相较于原版巨大的性能提升。 类似于OptiFine的智能树叶特性。
+  - 可用于：quilt: 1.17 -> 1.19, fabric: 1.16 -> 1.19  
+- [Cull Particles] - 不渲染看不到的颗粒，不需要用钠（Sodium）。 
+  - 可用于：fabric,quilt: 1.15 -> 1.19
+- [Dynamic FPS] - 改善Minecraft在后台时的性能。 
+  - 可用于：quilt: 1.18 -> 1.19, fabric: 1.14 -> 1.19
+- [Enhanced Block Entities] - 用方块渲染实体，从而减少FPS降低，以及用支持资源包对其进行定制。
+  - 可用于：quilt: 1.18 -> 1.19, fabric: 1.16 -> 1.19
+- [EntityCulling] - 使用异步路径跟踪来隐藏不可见的（方块）实体。
+  - 可用于：fabric,quilt: 1.16 -> 1.19, forge: 1.8.9, forge: 1.16 -> 1.19
+- [Sodium] - Minecraft的现代渲染引擎和客户端优化MOD。
+  - 可用于：fabric,quilt: 1.16 -> 1.19
 
-#### General
+#### 一般
 
-- [LazyDFU] - Makes the initialization of DataFixerUpper "lazy". DataFixerUpper (or DFU for short) is the system used by Minecraft to convert old worlds to the current version you're running, in Vanilla it's initialized at startup and is slow (and eats a lot of resources). This mod delays the initialization of DFU by initializing only when needed, if you're playing only on multiplayer it'll never get initialized for example.  
-  - Available for: fabric,quilt: 1.14 -> 1.19, forge: 1.16 -> 1.19  
-- [Lithium] - No-compromises game logic/server optimization mod.  
-  - Available for: fabric,quilt: 1.15 -> 1.19  
-- [Phosphor] - No-compromises lighting engine optimization mod. Incompatible with Starlight.  
-  - Available for: fabric,quilt: 1.15 -> 1.19  
-- [Starlight] - Rewrites the light engine to fix lighting performance and lighting errors. Uses a custom format for light storage. Incompatible with Phosphor.  
-  - Available for: fabric,quilt,forge: 1.17 -> 1.19  
+- [LazyDFU] - 使得DataFixerUpper的初始化变得"懒惰"。DataFixerUpper（简称DFU）是Minecraft用来将旧世界转换为你正在运行的当前版本的系统，在原版中，它在启动时被初始化，速度很慢（而且吃了很多资源）。这个MOD延迟了DFU的初始化，只在需要的时候初始化，例如，如果你只在多人游戏中玩，那么它永远不会被初始化。 
+  - 可用于：fabric,quilt: 1.14 -> 1.19, forge: 1.16 -> 1.19  
+- [Lithium] - 超强的游戏逻辑/服务器优化MOD。 
+  - 可用于：fabric,quilt: 1.15 -> 1.19  
+- [Phosphor] - 超强的照明引擎优化MOD。与Starlight不兼容。 
+  - 可用于：fabric,quilt: 1.15 -> 1.19  
+- [Starlight] - 重写光照引擎以修复灯光照性能和光照错误。使用自定义格式进行灯光存储。与Phosphor不兼容。 
+  - 可用于：fabric,quilt,forge: 1.17 -> 1.19  
 
-### Cosmetic
+### 美化
 
-- [Animatica] - A mod implementing the OptiFine/MCPatcher animated texture format.  
-  - Available for: quilt: 1.18 -> 1.19, fabric: 1.17 -> 1.19  
+- [Animatica] - 一个实现OptiFine/MCPatcher动画纹理格式的MOD。 
+  - 可用于：quilt: 1.18 -> 1.19, fabric: 1.17 -> 1.19  
 - [Chime] - Adds predicates for more interactive item models, CIT replacement with a custom format.  
-  - Available for: fabric: 1.16, fabric,quilt: 1.18 -> 1.19  
+  - 可用于：fabric: 1.16, fabric,quilt: 1.18 -> 1.19  
 - [CIT Resewn] - Re-implements MCPatcher's CIT (custom item textures from optifine resource packs)  
-  - Available for: fabric,quilt: 1.17 -> 1.19  
+  - 可用于：fabric,quilt: 1.17 -> 1.19  
 - [Clear Skies] - Horizon and fog match the sky color. True blue skies!  
-  - Available for: fabric,quilt: 1.15 -> 1.19, forge: 1.16  
+  - 可用于：fabric,quilt: 1.15 -> 1.19, forge: 1.16  
 - [Colormatic] - An independent implementation of the custom colors mod for Minecraft.  
-  - Available for: quilt: 1.18 -> 1.19, fabric: 1.14 -> 1.19  
+  - 可用于：quilt: 1.18 -> 1.19, fabric: 1.14 -> 1.19  
 - [Connected Block Textures] - An implementation of the MCPatcher/Optifine connected textures format on the Fabric modloader. Unmaintained.  
-  - Available for: fabric: 1.16  
+  - 可用于：fabric: 1.16  
   - Requires [Fabric Renderer API](#compatibility "More information.")  
 - [Continuity] - A Fabric mod that allows for efficient connected textures. Support emissive textures.  
-  - Available for: fabric,quilt: 1.17 -> 1.19  
+  - 可用于：fabric,quilt: 1.17 -> 1.19  
   - Requires [Fabric Renderer API](#compatibility "More information.")  
 - [Custom Entity Models (CEM)] - An implementation of custom entity models heavily based off of Optifine's format that aims to achieve feature parity with Optifine's custom entity models.  
-  - Available for: fabric,quilt: 1.16 -> 1.19  
+  - 可用于：fabric,quilt: 1.16 -> 1.19  
 - [Custom GUI] - A mod allowing to animate GUI textures or replace container textures with minimal predicates.  
-  - Available for: fabric: 1.16 -> 1.17  
+  - 可用于：fabric: 1.16 -> 1.17  
 - [Entity Texture Features] - A Fabric mod implementing randomized & emissive texture support for mobs set by the resourcepack. Fully compatible with the Optifine format & Sodium.  
-  - Available for: quilt: 1.18 -> 1.19, fabric,forge: 1.16 -> 1.19  
+  - 可用于：quilt: 1.18 -> 1.19, fabric,forge: 1.16 -> 1.19  
 - [FabricSkyboxes] - Allows resource packs to define custom skyboxes. OptiFine format is not compatible by default, converters are available.  
-  - Available for: fabric,quilt: 1.16 -> 1.19  
+  - 可用于：fabric,quilt: 1.16 -> 1.19  
 - [JMX] - JMX adds support for FREX Rendering API features to Minecraft JSON model loading. It can also be configured to load all JSON models as FREX meshes, which may offer a modest reduction in memory usage due to more efficient data structures.  
-  - Available for: fabric,quilt: 1.16 -> 1.19  
+  - 可用于：fabric,quilt: 1.16 -> 1.19  
 - [JsonEM (Json Entity Models)] - Data driven entity model library, should work with most entities. Does not support OptiFine's format.  
-  - Available for: quilt,fabric: 1.18 -> 1.19  
+  - 可用于：quilt,fabric: 1.18 -> 1.19  
 - [LambdaBetterGrass] - Adds better grass and snow to the game.  
-  - Available for: quilt: 1.18 -> 1.19, fabric: 1.16 -> 1.19  
+  - 可用于：quilt: 1.18 -> 1.19, fabric: 1.16 -> 1.19  
   - Requires [Fabric Renderer API](#compatibility "More information.")  
 - [LambDynamicLights] - Adds dynamic lighting to the game.  
-  - Available for: quilt: 1.17 -> 1.19, fabric: 1.15 -> 1.19  
+  - 可用于：quilt: 1.17 -> 1.19, fabric: 1.15 -> 1.19  
 - [More Block Predicates] - Allows resource packs to change block models depending on new conditions! Custom format.  
-  - Available for: fabric,quilt: 1.17 -> 1.19  
+  - 可用于：fabric,quilt: 1.17 -> 1.19  
 - [MoreMcmeta] - Animate almost any Minecraft texture with more options.  
-  - Available for: fabric,quilt: 1.16 -> 1.19, forge: 1.16 -> 1.19  
+  - 可用于：fabric,quilt: 1.16 -> 1.19, forge: 1.16 -> 1.19  
 - [Transparent] - Allows resource packs to make entities support transparency.  
-  - Available for: fabric,quilt,forge: 1.15 -> 1.19  
+  - 可用于：fabric,quilt,forge: 1.15 -> 1.19  
 - [Varied Mob Textures] - This mod allows the resource packs creator to have multiple randomized textures for the same mob. Uses custom format, OptiFine-based resource packs will need conversion.  
-  - Available for: fabric: 1.16  
+  - 可用于：fabric: 1.16  
 
 #### Splash Screen
 
