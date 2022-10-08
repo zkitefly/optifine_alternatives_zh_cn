@@ -1,13 +1,13 @@
-# OptiFine Alternatives
+# OptiFine 替代品
 
-## Why?
+## 为什么需要替代 OptiFine？
 
-OptiFine was originally a great mod offering many quality of life improvements for the player in the beginning. However, over the years, its benefits have dwindled and has caused many issues for modders. This is due to Minecraft's codebase improving over the years and OptiFine's aggressiveness towards replacing entire swaths of code while being closed source making it very difficult to figure out why OptiFine has broken another modder's mod. 
-Also worth noting that OptiFine natively doesn't support Fabric and it's hard to maintain OptiFabric.
+OptiFine最初是一个伟大的MOD, 最开始时它为玩家提供了许多游戏的优化。然而，随着时间的推移，它带来的好处越来越少，并给MOD作者们带来了许多问题。这是因为Minecraft的代码库多年来一直在改进，而OptiFine时常替换掉整段Minecraft 的代码，同时又是闭源的，因此很难弄清楚为什么OptiFine会与另一个作者制作的MOD不兼容。
+另外值得注意的是，OptiFine本身并不支持Fabric，而且OptiFabric是很难维护的。
 
-In the modern Minecraft era, with Fabric's community effort, modders have begun to create alternatives for most of OptiFine's features to allow players to maintain better performance, better mod compatibility, and better support.
+在现在的Minecraft时代，在Fabric的社区努力下，MOD作者们已经开始为OptiFine的大部分功能创建替代品，让玩家保持更好的性能，更好的MOD兼容性，以及更好的支持。
 
-[OptiFabric: A note about the 1.16 crashes][optifabric_issue]
+[OptiFabric：一篇关于1.16崩溃的笔记(OptiFabric: A note about the 1.16 crashes)][optifabric_issue]
 
 [optifabric_issue]: https://github.com/modmuss50/OptiFabric/issues/242
 
