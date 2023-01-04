@@ -1,5 +1,9 @@
 # OptiFine 替代品
 
+页面原文：[https://lambdaurora.dev/optifine_alternatives](https://lambdaurora.dev/optifine_alternatives)
+
+本文翻译来自 `WhitePaper233/optifine_alternatives_zh_cn`
+
 ## 为什么需要替代 OptiFine？
 
 OptiFine最初是一个伟大的MOD, 最开始时它为玩家提供了许多游戏的优化。然而，随着时间的推移，它带来的好处越来越少，并给MOD作者们带来了许多问题。这是因为Minecraft的代码库多年来一直在改进，而OptiFine时常替换掉整段Minecraft 的代码，同时又是闭源的，因此很难弄清楚为什么OptiFine会与另一个作者制作的MOD不兼容。
@@ -285,6 +289,19 @@ Sodium和Canvas渲染器兼容。
 
  - [有用的Fabric服务器端MOD](https://github.com/comp500/fabric-serverside-mods/blob/main/README.md)
 
-## 译者注
-
-如果翻译出现疏漏，或原仓库出现更新，请提Issue提醒我，感谢！
+<script src="https://giscus.app/client.js"
+        data-repo="zkitefly/zkitefly.github.io"
+        data-repo-id="R_kgDOHnuxMQ"
+        data-category="General"
+        data-category-id="DIC_kwDOHnuxMc4CR1BS"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
