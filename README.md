@@ -160,7 +160,7 @@ OptiFine最初是一个伟大的MOD, 最开始时它为玩家提供了许多游�
   - 可用于：fabric,quilt: 1.17 -> 1.19.3  
 - [Logical Zoom] - 用于Minecraft的超级简单的缩放键。 
   - 可用于：fabric,quilt: 1.15 -> 1.19.3  
-- [Ok Zoomer] - 为Fabric增加了一个高度可配置的缩放键。为你定制的缩放!  
+- [Ok Zoomer] - 为Quilt增加了一个高度可配置的缩放键。为你定制的缩放!  
   - 可用于：quilt: 1.18 -> 1.19.3, fabric: 1.14 -> 1.18  
 - [Quick Spyglasser] - 为使用物品栏中任何地方的望远镜增加了一个客户端按键。 
   - 可用于：fabric: 1.17  
